@@ -1,0 +1,10 @@
+numpy
+requests
+tiktoken
+python-dotenv
+jinja2
+openai
+tqdm
+scipy
+datasets
+matplotlib

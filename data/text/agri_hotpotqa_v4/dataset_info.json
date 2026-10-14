@@ -1,0 +1,27 @@
+{
+  "name": "AgriMultiHop v4 (Hard Multi-Hop)",
+  "version": "4.0.0",
+  "description": "Challenging agricultural multi-hop QA - answers require computation/reasoning",
+  "generation_method": "Template-based with computation requirements",
+  "model": "Knowledge Base + Python Generator",
+  "total_samples": 2000,
+  "splits": {
+    "train": 1600,
+    "val": 200,
+    "test": 200
+  },
+  "question_types": {
+    "counting": 587,
+    "negation": 211,
+    "derived": 510,
+    "implicit": 294,
+    "comparative": 398
+  },
+  "difficulty_features": [
+    "Answers not explicitly in documents",
+    "Counting/computation required",
+    "Multi-attribute comparison",
+    "Negation reasoning"
+  ],
+  "created": "2026-01-10T20:11:09.460013"
+}

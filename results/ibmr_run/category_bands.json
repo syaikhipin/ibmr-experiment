@@ -1,0 +1,62 @@
+{
+ "judge": "bytedance-seed/seed-2.0-mini",
+ "n": 146,
+ "categories": {
+  "disease_identification": {
+   "ibmr_acc": 95.7,
+   "ibmr_k": 22,
+   "ibmr_n": 23,
+   "baseline_acc": {
+    "rag": 100.0,
+    "nms": 95.7,
+    "hybrid": 95.7,
+    "bm25": 100.0,
+    "memorygraph": 100.0
+   },
+   "baseline_min": 95.7,
+   "baseline_max": 100.0
+  },
+  "severity": {
+   "ibmr_acc": 53.7,
+   "ibmr_k": 22,
+   "ibmr_n": 41,
+   "baseline_acc": {
+    "rag": 100.0,
+    "nms": 82.9,
+    "hybrid": 90.2,
+    "bm25": 82.9,
+    "memorygraph": 85.4
+   },
+   "baseline_min": 82.9,
+   "baseline_max": 100.0
+  },
+  "temporal": {
+   "ibmr_acc": 23.4,
+   "ibmr_k": 11,
+   "ibmr_n": 47,
+   "baseline_acc": {
+    "rag": 38.3,
+    "nms": 44.7,
+    "hybrid": 44.7,
+    "bm25": 38.3,
+    "memorygraph": 38.3
+   },
+   "baseline_min": 38.3,
+   "baseline_max": 44.7
+  },
+  "treatment": {
+   "ibmr_acc": 37.1,
+   "ibmr_k": 13,
+   "ibmr_n": 35,
+   "baseline_acc": {
+    "rag": 74.3,
+    "nms": 65.7,
+    "hybrid": 71.4,
+    "bm25": 62.9,
+    "memorygraph": 65.7
+   },
+   "baseline_min": 62.9,
+   "baseline_max": 74.3
+  }
+ }
+}

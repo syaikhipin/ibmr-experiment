@@ -1,0 +1,54 @@
+{
+ "generator": "deepseek/deepseek-chat-v3-0324",
+ "judge": "bytedance-seed/seed-2.0-mini",
+ "config": {
+  "K_max": 5,
+  "theta": 0.9,
+  "reconciliation": "weighted_vote"
+ },
+ "n_watchdog_failures": 1,
+ "locomo_overall": {
+  "n": 146,
+  "judge_acc": 0.4658,
+  "f1": 0.2096,
+  "em": 0.0342,
+  "mean_iters": 5.0
+ },
+ "hotpotqa_overall": {
+  "n": 200,
+  "judge_acc": 0.775,
+  "f1": 0.3956,
+  "em": 0.135,
+  "mean_iters": 5.0
+ },
+ "locomo_by_category": {
+  "disease_identification": {
+   "n": 23,
+   "judge_acc": 0.9565,
+   "f1": 0.5874,
+   "em": 0.1739,
+   "mean_iters": 5.0
+  },
+  "severity": {
+   "n": 41,
+   "judge_acc": 0.5366,
+   "f1": 0.1609,
+   "em": 0.0,
+   "mean_iters": 5.0
+  },
+  "temporal": {
+   "n": 47,
+   "judge_acc": 0.234,
+   "f1": 0.1201,
+   "em": 0.0,
+   "mean_iters": 5.0
+  },
+  "treatment": {
+   "n": 35,
+   "judge_acc": 0.3714,
+   "f1": 0.1386,
+   "em": 0.0286,
+   "mean_iters": 5.0
+  }
+ }
+}

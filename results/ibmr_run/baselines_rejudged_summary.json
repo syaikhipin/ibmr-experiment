@@ -1,0 +1,52 @@
+{
+ "rag": {
+  "locomo": {
+   "n": 146,
+   "acc": 0.7397
+  },
+  "hotpotqa": {
+   "n": 200,
+   "acc": 0.765
+  }
+ },
+ "nms": {
+  "locomo": {
+   "n": 146,
+   "acc": 0.6849
+  },
+  "hotpotqa": {
+   "n": 200,
+   "acc": 0.785
+  }
+ },
+ "hybrid": {
+  "locomo": {
+   "n": 146,
+   "acc": 0.7192
+  },
+  "hotpotqa": {
+   "n": 200,
+   "acc": 0.745
+  }
+ },
+ "bm25": {
+  "locomo": {
+   "n": 146,
+   "acc": 0.6644
+  },
+  "hotpotqa": {
+   "n": 200,
+   "acc": 0.765
+  }
+ },
+ "memorygraph": {
+  "locomo": {
+   "n": 146,
+   "acc": 0.6781
+  },
+  "hotpotqa": {
+   "n": 200,
+   "acc": 0.785
+  }
+ }
+}

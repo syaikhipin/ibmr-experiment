@@ -1,0 +1,34 @@
+{
+  "name": "AgriConvMem v2",
+  "version": "2.0.0",
+  "description": "Agricultural Conversational Memory Benchmark (Enhanced)",
+  "generation_method": "Chutes.ai API",
+  "model": "zai-org/GLM-4.6V",
+  "total_samples": 500,
+  "splits": {
+    "train": 350,
+    "val": 75,
+    "test": 75
+  },
+  "question_categories": [
+    "disease_identification",
+    "temporal",
+    "severity",
+    "treatment"
+  ],
+  "crops_covered": [
+    "tomato",
+    "potato",
+    "pepper",
+    "rice",
+    "wheat",
+    "corn",
+    "apple",
+    "grape",
+    "cherry",
+    "strawberry",
+    "soybean",
+    "squash"
+  ],
+  "created": "2026-01-09T01:03:36.887337"
+}

@@ -1,0 +1,3118 @@
+{
+ "predictions": [
+  {
+   "sample_id": "agri-0205",
+   "dataset": "locomo",
+   "category": "severity",
+   "question": "What is the severity level of the potato disease identified in the greenhouse?",
+   "reference": "The disease is at moderate severity, affecting about 30% of plants with 15-20% of leaf surface affected, primarily on the lower leaves.",
+   "prediction": "moderate severity",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0001",
+   "dataset": "locomo",
+   "category": "treatment",
+   "question": "What treatment was recommended?",
+   "reference": "streptomycin",
+   "prediction": "Copper-based bactericide application.",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0069",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When did the symptoms of late blight first appear in Greenhouse 1, and how quickly did they spread?",
+   "reference": "The symptoms first appeared about 3-5 days before each consultation session (May 4-6 for Session 1, May 11-12 for Session 2, and May 16-17 for Session 3). The disease spread rapidly, with spots moving to neighboring plants within 24 hours and affecting 30-70% of plants in the greenhouse within days.",
+   "prediction": "5 days ago, spread rapidly.",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0069",
+   "dataset": "locomo",
+   "category": "severity",
+   "question": "What is the severity level of the late blight infection in Greenhouse 1 based on the progression of symptoms?",
+   "reference": "The late blight infection in Greenhouse 1 is severe, with 60-70% of plants affected and symptoms spreading rapidly. The disease has progressed to affect stems and tubers, indicating a serious outbreak that can destroy the entire crop in days under the current conditions.",
+   "prediction": "Severe (60-70% plants affected)",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0433",
+   "dataset": "locomo",
+   "category": "disease_identification",
+   "question": "What disease was identified on the pepper plants in field_3?",
+   "reference": "Bacterial spot caused by Xanthomonas euvesicatoria",
+   "prediction": "bacterial spot",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0433",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When did the brown spots on the pepper plants first appear?",
+   "reference": "The brown spots on the pepper plants first appeared about 3 days before the consultation on February 22, 2024.",
+   "prediction": "3 days ago",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0433",
+   "dataset": "locomo",
+   "category": "severity",
+   "question": "How severe is the bacterial spot infection in field_3 based on the symptoms described?",
+   "reference": "The bacterial spot infection in field_3 is moderately severe, affecting approximately 20% of plants in one area with rapid defoliation occurring as older leaves fall off.",
+   "prediction": "Moderately severe (20% infected)",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0433",
+   "dataset": "locomo",
+   "category": "treatment",
+   "question": "What treatment was recommended for the bacterial spot disease on the pepper plants?",
+   "reference": "The recommended treatment includes removing and destroying all infected plant material immediately, applying a copper-based bactericide according to label directions with a surfactant for better coverage, implementing a 3-year crop rotation, and avoiding overhead watering to reduce humidity around the plants.",
+   "prediction": "Remove infected plants, apply copper bactericide.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0405",
+   "dataset": "locomo",
+   "category": "disease_identification",
+   "question": "What disease was identified in the tomato plants in field_1, when did the symptoms first appear, how severe is the outbreak, and what treatment was recommended?",
+   "reference": "The disease identified was bacterial spot caused by Xanthomonas. Symptoms first appeared about 5 days before the initial consultation (around March 14, 2024). The outbreak is severe, with the condition spreading rapidly from a few plants to affecting almost half the field in the first session and a third of plants in the second session. The recommended treatment includes a combination of cultural practices and copper-based bactericides.",
+   "prediction": "Bacterial spot (Xanthomonas), 5 days ago, half field affected, unknown treatment.",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0405",
+   "dataset": "locomo",
+   "category": "severity",
+   "question": "How severe was the bacterial spot infection?",
+   "reference": "severe",
+   "prediction": "\"Half the field affected\"",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0227",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When was the infection first reported?",
+   "reference": "2024-06-06",
+   "prediction": "5 days ago",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0322",
+   "dataset": "locomo",
+   "category": "disease_identification",
+   "question": "What disease was identified in field_2?",
+   "reference": "leaf mold",
+   "prediction": "tomato leaf mold",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0322",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When did the tomato leaf mold symptoms first appear in field 2?",
+   "reference": "Symptoms first appeared about 3-5 days before each consultation session, with specific mentions of starting 3 days before the June 5th session, 5 days before the June 9th session, and suddenly last Tuesday before the June 11th session",
+   "prediction": "about 3 days ago",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0322",
+   "dataset": "locomo",
+   "category": "severity",
+   "question": "How severe was the leaf mold infection?",
+   "reference": "mild",
+   "prediction": "mild and currently confined",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0322",
+   "dataset": "locomo",
+   "category": "treatment",
+   "question": "What is the recommended treatment for tomato leaf mold in its mild stage?",
+   "reference": "The recommended treatment for mild tomato leaf mold includes removing affected leaves, applying a copper-based fungicide immediately, improving air circulation by pruning inner foliage, and avoiding overhead watering during humid periods.",
+   "prediction": "Remove affected leaves and apply fungicide.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0094",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When did the early blight symptoms first appear on the potato plants in field_3, and what was the recommended treatment timing?",
+   "reference": "The early blight symptoms first appeared about a week before the first consultation (around February 1, 2024). The recommended treatment was to apply fungicide with chlorothalonil or mancozeb immediately and repeat every 7-10 days.",
+   "prediction": "\"One week ago, act quickly\"",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0434",
+   "dataset": "locomo",
+   "category": "disease_identification",
+   "question": "What disease was identified on the pepper plants in field_2?",
+   "reference": "Bacterial spot caused by Xanthomonas euvesicatoria",
+   "prediction": "Bacterial leaf spot",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0434",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When did the symptoms on the pepper plants first appear?",
+   "reference": "The symptoms started about 3 days before the initial consultation on December 12, 2024.",
+   "prediction": "unknown",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0434",
+   "dataset": "locomo",
+   "category": "severity",
+   "question": "What was the severity level of the bacterial spot disease when it was diagnosed?",
+   "reference": "The severity was moderate at the time of diagnosis, but the expert emphasized the need to act quickly to prevent it from becoming severe.",
+   "prediction": "moderate severity",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0328",
+   "dataset": "locomo",
+   "category": "disease_identification",
+   "question": "What disease was identified in the potato crop in field 3 based on the symptoms described?",
+   "reference": "Late blight (Phytophthora infestans) was identified in the potato crop in field 3. The disease was diagnosed based on the characteristic symptoms of dark, water-soaked lesions on leaves with white, fuzzy growth on the undersides, particularly in conditions of recent cool and wet weather.",
+   "prediction": "late blight",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0328",
+   "dataset": "locomo",
+   "category": "severity",
+   "question": "What is the severity level of the late blight infection in field 3 based on the farmer's observations?",
+   "reference": "The severity level is moderate, with approximately 15-20% of plants affected according to the farmer's observations across multiple sessions.",
+   "prediction": "\"15-20% of plants affected\"",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0026",
+   "dataset": "locomo",
+   "category": "disease_identification",
+   "question": "What disease was identified in the tomato plants in field 2 across all three consultation sessions?",
+   "reference": "Tomato Yellow Leaf Curl Virus (TYLCV)",
+   "prediction": "Tomato Yellow Leaf Curl Virus (TYLCV)",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0026",
+   "dataset": "locomo",
+   "category": "treatment",
+   "question": "What insecticide treatments were recommended for controlling whiteflies and managing TYLCV in the tomato plants?",
+   "reference": "The experts recommended using insecticides labeled for whiteflies on tomatoes to control the whitefly population, which transmits TYLCV. They also suggested intensifying whitefly control with a combination of insecticides and biological controls for the remaining plants.",
+   "prediction": "\"recommended insecticide for whiteflies\"",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0390",
+   "dataset": "locomo",
+   "category": "treatment",
+   "question": "How often should I apply the copper-based bactericide to treat bacterial spot on my pepper plants?",
+   "reference": "Apply the copper-based bactericide immediately and then repeat every 7-10 days.",
+   "prediction": "Every 7-10 days.",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0014",
+   "dataset": "locomo",
+   "category": "disease_identification",
+   "question": "What disease was identified in orchard_1?",
+   "reference": "late blight",
+   "prediction": "late blight (Phytophthora infestans)",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0014",
+   "dataset": "locomo",
+   "category": "treatment",
+   "question": "What fungicide treatment was recommended for the late blight infection in the potato crop?",
+   "reference": "The expert recommended applying a fungicide with mefenoxam or mandipropamid immediately, followed by a second application in 7-10 days. In some cases, chlorothalonil was suggested as a protectant 5-7 days after the initial application. The treatment also included removing and destroying severely infected plants.",
+   "prediction": "unknown",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0355",
+   "dataset": "locomo",
+   "category": "severity",
+   "question": "What is the severity level of the septoria leaf spot disease in field 3 based on the symptoms described?",
+   "reference": "The septoria leaf spot disease is at a severe level, with rapid spread affecting approximately 30% of plants, leaves turning yellow and falling off, and the disease progressing from lower to middle leaves with complete coverage on some leaves.",
+   "prediction": "\"Moderate to severe infection\"",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0232",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When did the brown spot symptoms first appear on the pepper plants?",
+   "reference": "The brown spot symptoms first appeared about 10 days ago according to the farmer's report in Session 3.",
+   "prediction": "last week",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0232",
+   "dataset": "locomo",
+   "category": "severity",
+   "question": "What is the severity level of the bacterial spot infection in the pepper field based on the farmer's observations?",
+   "reference": "The bacterial spot infection is at a severe level, with 30-40% foliage loss on worst plants, complete leaf coverage and defoliation in some cases, and affecting 40-70% of plants in the field",
+   "prediction": "severe and spreading fast",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0232",
+   "dataset": "locomo",
+   "category": "treatment",
+   "question": "What copper-based treatments were recommended for the bacterial spot disease in the pepper field?",
+   "reference": "The experts recommended applying copper hydroxide or oxychloride bactericides every 5-7 days, along with using a surfactant. They also advised removing and destroying severely infected plants to reduce disease spread.",
+   "prediction": "unknown",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0462",
+   "dataset": "locomo",
+   "category": "disease_identification",
+   "question": "What disease was identified in orchard_1?",
+   "reference": "late blight",
+   "prediction": "late blight",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0462",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When did the farmer first notice symptoms of late blight in both sessions?",
+   "reference": "In both sessions, the farmer first noticed symptoms about 3 days prior to contacting Dr. Evans.",
+   "prediction": "3 days ago",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0462",
+   "dataset": "locomo",
+   "category": "severity",
+   "question": "What is the current severity level of the late blight infection in the potato field?",
+   "reference": "The late blight infection is currently affecting approximately 10-15% of the potato plants in the field, but it is spreading rapidly with symptoms expanding each day.",
+   "prediction": "Early stage (10-15%)",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0416",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When did the symptoms of target spot disease first appear on the tomato plants?",
+   "reference": "The symptoms first appeared about 5 days before each consultation - around March 15, 2024 for the first session and March 21, 2024 for the second session.",
+   "prediction": "past few days",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0416",
+   "dataset": "locomo",
+   "category": "severity",
+   "question": "What was the severity level of the target spot disease in the tomato plants?",
+   "reference": "The target spot disease was affecting 30-40% of the tomato plants in the field, with the infection spreading rapidly from lower to upper leaves.",
+   "prediction": "unknown",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0373",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When did Mr. Thompson first notice the symptoms of the spider mite infestation?",
+   "reference": "Mr. Thompson first noticed the symptoms about 5 days before each consultation session - on approximately February 1st for the first session and February 12th for the second session.",
+   "prediction": "5 days ago",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0373",
+   "dataset": "locomo",
+   "category": "severity",
+   "question": "What was the severity level of the spider mite infestation on the tomato plants?",
+   "reference": "The spider mite infestation was diagnosed as moderate severity by both experts.",
+   "prediction": "moderate severity right now",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0373",
+   "dataset": "locomo",
+   "category": "treatment",
+   "question": "What treatment did the expert recommend for the spider mite infestation on the tomato plants?",
+   "reference": "The expert recommended applying a miticide specifically labeled for spider mites on tomatoes, preferably containing abamectin or bifenthrin. The application should be done early in the morning or evening when temperatures are cooler, with good coverage on the undersides of leaves. A second application 7-10 days later is needed since miticides don't kill eggs. Biological control with predatory mites was also suggested as an option.",
+   "prediction": "unknown",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0308",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When did the farmer first notice symptoms of bacterial spot in their pepper plants?",
+   "reference": "The farmer first noticed symptoms about 5 days before the consultation session on September 30, 2024, which would be around September 25, 2024.",
+   "prediction": "5 days ago",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0215",
+   "dataset": "locomo",
+   "category": "severity",
+   "question": "What is the severity level of the bacterial spot disease on the tomato plants in greenhouse 1?",
+   "reference": "The bacterial spot disease is at moderate severity, affecting approximately 15-20% of plants in greenhouse 1. The symptoms are spreading upward from lower leaves, with worsening leaf curling and stunted growth in affected plants. The expert has indicated that it needs to be managed quickly before it becomes severe.",
+   "prediction": "Moderate (15% affected)",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0180",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When did the farmer first notice symptoms of bacterial spot on the pepper plants in greenhouse_1?",
+   "reference": "The farmer first noticed symptoms about 5 days before the initial consultation on February 1, 2024, when small water-soaked spots began appearing on the leaves.",
+   "prediction": "10 days ago",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0180",
+   "dataset": "locomo",
+   "category": "treatment",
+   "question": "What treatment was recommended for the bacterial spot disease affecting the pepper plants in greenhouse_1?",
+   "reference": "The recommended treatment includes immediately removing and destroying all infected plant material, applying a copper-based bactericide every 7-10 days, improving air circulation in the greenhouse, avoiding overhead watering, and practicing strict sanitation of tools and hands. For severe infections, a systemic antibiotic should be considered.",
+   "prediction": "Copper sprays.",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0033",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When did Maria first notice the symptoms of bacterial spot on her pepper plants?",
+   "reference": "Maria first noticed the symptoms about 3-5 days before each consultation session - about 3 days before the first session (Nov 17), about 5 days before the second session (Nov 27), and about 5 days before the third session (Dec 9).",
+   "prediction": "a few days ago",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0259",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When did the farmer first notice the symptoms of early blight on the potato plants?",
+   "reference": "The farmer first noticed the symptoms about 10 days before the consultation on January 17, 2024, as mentioned in Session 4. In Session 2, the farmer reported noticing symptoms starting the previous Tuesday (relative to January 11), and in Session 1, the farmer mentioned noticing spots about a week prior to that consultation.",
+   "prediction": "10 days ago.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0259",
+   "dataset": "locomo",
+   "category": "severity",
+   "question": "What is the severity level of the early blight infection in field_1 based on the farmer's observations?",
+   "reference": "The early blight infection is severe, affecting 30-40% of the plants in field_1, with rapid spread from the bottom of plants upward and significant leaf damage including yellowing and leaf drop.",
+   "prediction": "\"Severe (30% plants affected)\"",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0133",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "How long after symptoms appeared did the farmer contact the expert in each session?",
+   "reference": "In each session, the farmer contacted the expert 3-5 days after symptoms first appeared (3 days in Sessions 1, 2, and 4; 5 days in Session 3).",
+   "prediction": "3 days; unknown for first session.",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0357",
+   "dataset": "locomo",
+   "category": "severity",
+   "question": "What was the severity level of the early blight disease in the potato field across the three consultation sessions?",
+   "reference": "The early blight disease was consistently described as mild across all three sessions, with 12-20% of plants showing symptoms, primarily on lower leaves.",
+   "prediction": "\"12-15% of plants affected\"",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0481",
+   "dataset": "locomo",
+   "category": "treatment",
+   "question": "What is the recommended frequency for applying copper-based bactericides to treat bacterial spot in pepper plants?",
+   "reference": "Copper-based bactericides should be applied every 7-10 days, or every 5-7 days in severe cases, with consideration of adding a surfactant for better coverage.",
+   "prediction": "Every 7-10 days.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0422",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When did the potato plant symptoms first appear and what was the recommended treatment timeline?",
+   "reference": "Symptoms first appeared about 3 days before each consultation session - around November 22 in Session 1 and around November 26 in Session 2. The recommended treatment timeline was to apply fungicide immediately and repeat every 7-10 days.",
+   "prediction": "Symptoms appeared 3 days ago; unknown treatment timeline.",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0422",
+   "dataset": "locomo",
+   "category": "treatment",
+   "question": "What fungicide treatment was recommended for the potato plant disease?",
+   "reference": "The experts recommended applying a more effective fungicide like chlorothalonil or mancozeb (Session 1) or a copper-based fungicide (Session 2), with applications to be repeated every 7-10 days. They also advised removing and destroying any heavily infected leaves to prevent spread of the disease.",
+   "prediction": "copper-based fungicide",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0051",
+   "dataset": "locomo",
+   "category": "disease_identification",
+   "question": "What disease was identified in the potato field consultation?",
+   "reference": "The disease identified in both consultations was early blight, caused by the fungus Alternaria solani. This was determined based on the characteristic circular brown spots with concentric rings or target patterns on the potato leaves.",
+   "prediction": "early blight",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0051",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When did the farmer first notice the symptoms of early blight in field_2?",
+   "reference": "In the first consultation on April 4, 2024, the farmer noticed symptoms about 3 days prior. In the second consultation on April 15, 2024, the farmer noticed symptoms about 5 days prior.",
+   "prediction": "3 days ago",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0051",
+   "dataset": "locomo",
+   "category": "severity",
+   "question": "What was the severity level of the early blight infection in the potato field?",
+   "reference": "The severity was mild, with approximately 10-15% of plants affected initially, increasing to about 15-20% of the field by the second consultation.",
+   "prediction": "mild (10-15% affected)",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0051",
+   "dataset": "locomo",
+   "category": "treatment",
+   "question": "What fungicide was recommended for treating early blight in the potato field?",
+   "reference": "The expert recommended applying a fungicide with chlorothalonil or mancozeb immediately, and then repeating every 7-10 days.",
+   "prediction": "unknown",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0419",
+   "dataset": "locomo",
+   "category": "treatment",
+   "question": "What treatment was recommended?",
+   "reference": "neem oil spray",
+   "prediction": "Switch to systemic fungicide.",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0448",
+   "dataset": "locomo",
+   "category": "disease_identification",
+   "question": "What disease was identified in the tomato plants in orchard_1?",
+   "reference": "The disease identified was a severe spider mite infestation, specifically Tetranychus urticae.",
+   "prediction": "spider mite infestation",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0448",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When did the farmer first notice the spider mite symptoms on his tomato plants?",
+   "reference": "The farmer first noticed the spider mite symptoms about 10 days before the fourth session (around March 11, 2024), though the symptoms had started appearing about a week before the first session (around February 13, 2024).",
+   "prediction": "10 days ago",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0448",
+   "dataset": "locomo",
+   "category": "treatment",
+   "question": "What treatment was recommended?",
+   "reference": "mancozeb",
+   "prediction": "\"miticide and predatory mites\"",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0216",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When did the symptoms of the pepper plant disease first appear?",
+   "reference": "The symptoms first appeared about 5 days before the initial consultation on September 2, 2024, starting in the lower leaves of plants in the northwest corner of field 2.",
+   "prediction": "About a week ago.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0216",
+   "dataset": "locomo",
+   "category": "severity",
+   "question": "What was the severity level of the bacterial spot disease identified in the pepper plants?",
+   "reference": "The bacterial spot disease was described as \"definitely severe\" based on the observation that almost 30% of the leaves had already dropped from the affected plants.",
+   "prediction": "Moderate to severe spread",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0367",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When did the farmer first notice symptoms of late blight in their potato field?",
+   "reference": "The farmer first noticed symptoms last Tuesday, as mentioned in multiple sessions.",
+   "prediction": "last Tuesday",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0170",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When did the late blight symptoms first appear and how quickly have they been spreading?",
+   "reference": "The symptoms first appeared last Tuesday morning, with white sporulation becoming visible yesterday. The lesions have been spreading quickly, affecting about 15-20% of plants in just 3 days.",
+   "prediction": "First appeared 3 days ago.",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0170",
+   "dataset": "locomo",
+   "category": "treatment",
+   "question": "What treatment was recommended?",
+   "reference": "copper fungicide",
+   "prediction": "unknown",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0430",
+   "dataset": "locomo",
+   "category": "treatment",
+   "question": "What fungicide treatment was recommended for the tomato plants in field_1?",
+   "reference": "Apply a fungicide with mefenoxam or copper as the active ingredient, repeating applications every 7-10 days.",
+   "prediction": "mefenoxam or copper fungicide",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0211",
+   "dataset": "locomo",
+   "category": "disease_identification",
+   "question": "What disease was identified in the tomato plants in greenhouse 1?",
+   "reference": "Septoria leaf spot, caused by the fungus Septoria lycopersici",
+   "prediction": "Early blight or Septoria leaf spot.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0211",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When did the tomato plants first show symptoms of septoria leaf spot?",
+   "reference": "The symptoms first appeared around late September to early October, with the earliest mention being about 7 days before September 25th in Session 1, and specifically noted as October 1st in Session 2.",
+   "prediction": "7 days ago",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0211",
+   "dataset": "locomo",
+   "category": "severity",
+   "question": "How severe was the septoria leaf spot infection in the tomato plants by November 6th, and what percentage of plants were affected?",
+   "reference": "By November 6th, the septoria leaf spot infection was severe, affecting approximately 60% of the tomato plants in greenhouse 1. Some of the lower leaves were completely yellow and dying, indicating advanced disease progression.",
+   "prediction": "Severe, spreading to middle leaves.",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0377",
+   "dataset": "locomo",
+   "category": "treatment",
+   "question": "What treatment was recommended?",
+   "reference": "chlorothalonil",
+   "prediction": "Mefenoxam or mandipropamid fungicide.",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0241",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When did the symptoms of bacterial spot first appear in field_2, and how quickly have they been spreading?",
+   "reference": "The symptoms of bacterial spot first appeared about 5-7 days before each consultation session, and the disease has been spreading quickly to more plants each day, with the affected area reaching about 30% of the field by Session 3.",
+   "prediction": "1 week ago, spreading daily.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0241",
+   "dataset": "locomo",
+   "category": "severity",
+   "question": "What was the severity level of the bacterial spot disease in field_2 as reported by the farmer?",
+   "reference": "The severity was described as moderate, with the worst plants losing about 30% of their foliage and approximately 30% of the field affected at its peak.",
+   "prediction": "\"30% foliage loss\"",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0241",
+   "dataset": "locomo",
+   "category": "treatment",
+   "question": "What treatment was recommended for the bacterial spot disease in the pepper plants, and how did it change over the course of the consultation?",
+   "reference": "Initially, a copper-based bactericide was recommended to be applied immediately and repeated every 7-10 days. However, when the copper treatment didn't work in session 4, the recommendation changed to using streptomycin or oxytetracycline antibiotic spray applied at 5-7 day intervals.",
+   "prediction": "Copper spray, remove infected leaves.",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0251",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When did the farmer first notice symptoms of bacterial spot in their pepper field?",
+   "reference": "The farmer first noticed symptoms about 5 days before each consultation session - around December 4th, 2024 for the first session and December 17th, 2024 for the second session.",
+   "prediction": "unknown",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0399",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When did the farmer first notice symptoms of bacterial spot on his pepper plants in field_3?",
+   "reference": "The farmer first noticed symptoms about 5 days before each consultation session - around April 18, May 16, and May 16 for the respective sessions.",
+   "prediction": "5 days ago",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0399",
+   "dataset": "locomo",
+   "category": "treatment",
+   "question": "What treatment was recommended for the bacterial spot disease affecting the pepper plants?",
+   "reference": "The expert recommended applying a copper-based bactericide immediately, with a second application 7-10 days later. Additionally, removing and destroying infected plant material, switching from overhead to drip irrigation, and implementing a 3-year crop rotation plan were recommended.",
+   "prediction": "copper-based bactericide application",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0041",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When did the symptoms of bacterial spot first appear on the pepper plants in field_1?",
+   "reference": "The symptoms first appeared about 5 days before the consultation in Session 1 (around December 4, 2024) and about a week before the consultation in Session 2 (around December 14, 2024). In Session 3, symptoms also started about 5 days prior to that consultation (around December 14, 2024).",
+   "prediction": "After heavy rain last week",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0041",
+   "dataset": "locomo",
+   "category": "severity",
+   "question": "What was the severity level of the bacterial spot disease identified in the pepper plants?",
+   "reference": "The severity level was moderate, with 15-30% of plants affected and significant leaf drop in the most affected areas.",
+   "prediction": "15% leaf drop",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0041",
+   "dataset": "locomo",
+   "category": "treatment",
+   "question": "What treatment was recommended?",
+   "reference": "copper-based bactericide",
+   "prediction": "copper-based bactericide",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0443",
+   "dataset": "locomo",
+   "category": "disease_identification",
+   "question": "What disease was identified in the tomato plants in field_2?",
+   "reference": "Target spot disease caused by Corynespora cassiicola",
+   "prediction": "target spot disease",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0443",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When did the tomato plant symptoms first appear in field_2 according to the consultations?",
+   "reference": "The symptoms first appeared about 5-7 days before each consultation session, with farmers reporting symptoms starting 5 days before the March 26 session, about a week before the April 6 session, about a week before the April 13 session, and 5-6 days before the May 1 session.",
+   "prediction": "5-6 days ago",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0443",
+   "dataset": "locomo",
+   "category": "severity",
+   "question": "What was the severity level of the target spot disease on the tomato plants in field_2?",
+   "reference": "The severity was moderate, affecting approximately 15-20% of plants initially and increasing to 20-30% of plants by the final session.",
+   "prediction": "unknown",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0140",
+   "dataset": "locomo",
+   "category": "disease_identification",
+   "question": "What disease was identified in the pepper plants in orchard_1?",
+   "reference": "Bacterial spot caused by Xanthomonas euvesicatoria",
+   "prediction": "bacterial spot",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0140",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "How long after the heavy rain event did the symptoms of bacterial spot first appear in the pepper plants?",
+   "reference": "The symptoms first appeared about 10 days after the heavy rain event, as mentioned in the first consultation session.",
+   "prediction": "5 days ago",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0140",
+   "dataset": "locomo",
+   "category": "severity",
+   "question": "How severe was the bacterial spot infection?",
+   "reference": "severe",
+   "prediction": "60% of plants affected",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0140",
+   "dataset": "locomo",
+   "category": "treatment",
+   "question": "Should I remove entire pepper plants that are showing bacterial spot symptoms, and which specific copper-based bactericide would you recommend for controlling the disease?",
+   "reference": "Yes, you should remove entire plants that are heavily infected with bacterial spot, not just individual leaves. For the copper-based bactericide, I recommend a product specifically formulated for bacterial diseases on peppers, applied according to label directions with a surfactant to improve coverage. Continue applications every 7-10 days for effective control.",
+   "prediction": "Remove infected plants, use copper bactericide.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0404",
+   "dataset": "locomo",
+   "category": "treatment",
+   "question": "What fungicides were recommended for treating late blight in the potato crop, and what was the treatment schedule?",
+   "reference": "The experts recommended applying a systemic fungicide like mandipropamid or mefenoxam immediately, followed by a second application in 7-10 days. In one session, a contact fungicide was also suggested to be applied 7-10 days after the initial treatment. Additionally, they advised removing and destroying severely infected leaves or plants to reduce spread.",
+   "prediction": "Copper-based fungicide; applied 10 days ago.",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0208",
+   "dataset": "locomo",
+   "category": "disease_identification",
+   "question": "What disease was identified in the pepper plants in orchard_1?",
+   "reference": "Bacterial spot caused by Xanthomonas euvesicatoria",
+   "prediction": "bacterial spot",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0208",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When did the farmer first notice the brown spots on the pepper plants?",
+   "reference": "The farmer first noticed the brown spots about 5 days before the first consultation (around January 3, 2024) and again about 3 days before the second consultation (around January 10, 2024).",
+   "prediction": "5 days ago",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0208",
+   "dataset": "locomo",
+   "category": "severity",
+   "question": "What is the severity level of the bacterial spot disease in the pepper plants?",
+   "reference": "The severity level is mild, though the symptoms are progressing despite treatment.",
+   "prediction": "mild severity",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0208",
+   "dataset": "locomo",
+   "category": "treatment",
+   "question": "What treatment was recommended for the bacterial spot on the pepper plants?",
+   "reference": "The recommended treatment included applying a copper-based bactericide immediately, removing and destroying infected leaves, avoiding overhead watering, and increasing the frequency of copper applications to every 7-10 days with a fixed copper product. If conditions remain favorable for disease, adding a bactericide with a different mode of action may be necessary.",
+   "prediction": "unknown",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0329",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When did the tomato plant symptoms first appear according to the farmer's reports?",
+   "reference": "The symptoms first appeared approximately 3 days before January 14, 2024 (around January 11), then about 7 days before January 26, 2024 (around January 19), and about a week before January 28, 2024 (around January 21).",
+   "prediction": "3 days ago",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0329",
+   "dataset": "locomo",
+   "category": "severity",
+   "question": "What was the severity level of the septoria leaf spot disease identified in the tomato plants?",
+   "reference": "The severity level was moderate in all sessions, with approximately 30% of plants affected and symptoms spreading but still manageable with proper treatment.",
+   "prediction": "moderate severity",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0392",
+   "dataset": "locomo",
+   "category": "disease_identification",
+   "question": "What disease was identified in orchard_1?",
+   "reference": "bacterial spot",
+   "prediction": "bacterial spot disease",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0392",
+   "dataset": "locomo",
+   "category": "treatment",
+   "question": "What treatment was recommended?",
+   "reference": "copper-based bactericide",
+   "prediction": "Copper-based bactericide application.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0415",
+   "dataset": "locomo",
+   "category": "disease_identification",
+   "question": "What disease was identified in the pepper plants across the consultation sessions?",
+   "reference": "Bacterial spot caused by Xanthomonas euvesicatoria",
+   "prediction": "bacterial spot",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0415",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When did the symptoms of bacterial spot first appear on the pepper plants in field 3?",
+   "reference": "The symptoms first appeared about 3-5 days before each consultation session, with specific mentions of 5 days prior in Sessions 1, 3, and 4, and 3 days prior in Session 2.",
+   "prediction": "About 5 days ago.",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0415",
+   "dataset": "locomo",
+   "category": "severity",
+   "question": "What is the severity level of the bacterial spot disease in field 3?",
+   "reference": "The severity is moderate, with approximately 15-30% leaf loss on affected plants. The disease started on lower leaves and is progressing upward, with some leaf drop occurring.",
+   "prediction": "Moderate to severe",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0450",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When did the tomato plants first show symptoms of late blight?",
+   "reference": "The symptoms first appeared about 3 days before each consultation session - around February 9, 2024, for the first session and around February 20, 2024, for the second session.",
+   "prediction": "3 days ago",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0162",
+   "dataset": "locomo",
+   "category": "disease_identification",
+   "question": "What disease was identified in field_3?",
+   "reference": "bacterial spot",
+   "prediction": "bacterial leaf spot",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0162",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When did the symptoms of bacterial spot first appear in field_3 according to the farmer's reports?",
+   "reference": "The symptoms first appeared about 5 days before the consultation in Sessions 1 and 3, and about a week before the consultation in Session 2.",
+   "prediction": "5 days ago",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0162",
+   "dataset": "locomo",
+   "category": "treatment",
+   "question": "What treatment was recommended for the bacterial spot disease affecting the pepper crop in field_3?",
+   "reference": "The recommended treatment for bacterial spot in field_3 was applying copper-based bactericides immediately, with a second application following 7-10 days later. Additionally, removing and destroying severely infected plant material was advised to reduce inoculum spread.",
+   "prediction": "Remove infected material, apply copper bactericides.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0323",
+   "dataset": "locomo",
+   "category": "severity",
+   "question": "What is the current severity level of the late blight infection in the potato crop?",
+   "reference": "The late blight infection is currently affecting about 15-20% of the plants in the field, and the disease is spreading rapidly.",
+   "prediction": "15-20% of plants affected",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0323",
+   "dataset": "locomo",
+   "category": "treatment",
+   "question": "What fungicide treatment was recommended for the late blight infection in the potato crop?",
+   "reference": "The expert recommended applying a fungicide containing either mefenoxam or chlorothalonil as soon as possible, with repeated applications according to label directions to control the late blight infection.",
+   "prediction": "mefenoxam or chlorothalonil",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0224",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When did the farmer first notice symptoms of target spot disease on the tomato plants in field 2?",
+   "reference": "The farmer first noticed symptoms 3 days prior to the consultation in Session 1 (around December 9, 2024), 5 days prior to Session 2 (around December 19, 2024), and 3 days prior to Session 4 (around December 29, 2024).",
+   "prediction": "unknown",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0224",
+   "dataset": "locomo",
+   "category": "severity",
+   "question": "What was the severity level of the target spot disease identified in the tomato plants?",
+   "reference": "The target spot disease was consistently described as mild throughout the consultation sessions, affecting 10-15% of plants initially and progressing to 15-20% of plants by the final session. The experts indicated that while the disease was spreading, it remained manageable with proper fungicide applications and cultural practices.",
+   "prediction": "\"Affecting 10-15% of plants\"",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0468",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When did the farmer first notice symptoms of late blight on his potato plants in field 3?",
+   "reference": "The farmer first noticed symptoms about 3-4 days before contacting the expert in each session, with specific mentions of noticing it 'about 3 days ago' (Session 1), 'overnight' (Session 2), 'last Tuesday' (Session 3), and 'about 4 days ago' (Session 4).",
+   "prediction": "unknown",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0468",
+   "dataset": "locomo",
+   "category": "severity",
+   "question": "What was the severity level of the late blight infection in field 3?",
+   "reference": "The late blight infection was described as moderate severity in the consultation.",
+   "prediction": "15-20% of plants affected.",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0468",
+   "dataset": "locomo",
+   "category": "treatment",
+   "question": "What treatment was recommended?",
+   "reference": "mancozeb",
+   "prediction": "Apply mefenoxam or fluopicolide immediately.",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0082",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When did the symptoms of late blight first appear in the tomato plants?",
+   "reference": "The symptoms first appeared about 3 days before each consultation session - around December 1st for the first session and around December 11th for the second session.",
+   "prediction": "3 days ago",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0455",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When did the tomato plant symptoms first appear according to the farmer's reports?",
+   "reference": "The symptoms first appeared about 5-7 days before each consultation session - approximately May 8-9, May 21, and May 18 for sessions 1, 2, and 3 respectively.",
+   "prediction": "7-10 days ago",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0455",
+   "dataset": "locomo",
+   "category": "severity",
+   "question": "What was the severity level of the septoria leaf spot disease as assessed by the expert?",
+   "reference": "The expert assessed the septoria leaf spot disease as having moderate severity in the tomato plants.",
+   "prediction": "\"Spreading rapidly\"",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0455",
+   "dataset": "locomo",
+   "category": "treatment",
+   "question": "What treatment was recommended?",
+   "reference": "chlorothalonil",
+   "prediction": "Remove infected leaves, apply copper fungicide.",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0440",
+   "dataset": "locomo",
+   "category": "severity",
+   "question": "What was the severity level of the late blight infection in field 2?",
+   "reference": "The late blight infection was at moderate severity, affecting approximately 15-20% of the plants in field 2.",
+   "prediction": "moderate severity",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0107",
+   "dataset": "locomo",
+   "category": "disease_identification",
+   "question": "What disease was identified in the pepper plants in Field 3?",
+   "reference": "Bacterial spot caused by Xanthomonas euvesicatoria",
+   "prediction": "bacterial spot by Xanthomonas euvesicatoria",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0107",
+   "dataset": "locomo",
+   "category": "severity",
+   "question": "What was the severity level of the bacterial spot disease in Field 3?",
+   "reference": "The bacterial spot disease was mild, affecting approximately 15-20% of plants in Field 3.",
+   "prediction": "15-20% of plants affected",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0107",
+   "dataset": "locomo",
+   "category": "treatment",
+   "question": "What treatment was recommended for the bacterial spot disease in the pepper plants?",
+   "reference": "The recommended treatment included applying a copper-based bactericide immediately and repeating every 7-10 days, removing and destroying severely infected leaves to prevent spread, ensuring good air circulation between plants, avoiding overhead watering, and working in the field only when plants are dry to prevent further spread of the disease.",
+   "prediction": "\"Copper-based bactericide and leaf removal\"",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0152",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When was the infection first reported?",
+   "reference": "2024-03-09",
+   "prediction": "3 days ago",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0152",
+   "dataset": "locomo",
+   "category": "severity",
+   "question": "What was the severity level of the late blight infection in field_2?",
+   "reference": "The late blight infection was diagnosed as mild severity, affecting approximately 10-15% of plants, primarily concentrated in the lower canopy with no stem or tuber infection yet.",
+   "prediction": "mild severity",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0152",
+   "dataset": "locomo",
+   "category": "treatment",
+   "question": "What fungicide treatment was recommended for the late blight infection in the potato field?",
+   "reference": "The experts recommended applying a copper-based fungicide or a product with mefenoxam or mandipropamid as the active ingredient to treat the late blight infection.",
+   "prediction": "unknown",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0120",
+   "dataset": "locomo",
+   "category": "disease_identification",
+   "question": "What disease was identified in the tomato plants in orchard_1?",
+   "reference": "Early blight caused by Alternaria solani was identified in the tomato plants.",
+   "prediction": "early blight",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0120",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When did the tomato plant symptoms first appear and how quickly did they progress?",
+   "reference": "The symptoms first appeared about 5 days before the consultation in Session 2 (around March 26, 2024) and worsened significantly in the last 2-3 days before that session. By Session 3 (April 4, 2024), the farmer reported spotting symptoms about 5 days prior, with rapid progression since then.",
+   "prediction": "About a week ago.",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0387",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When was the infection first reported?",
+   "reference": "2024-10-08",
+   "prediction": "5 days ago",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0387",
+   "dataset": "locomo",
+   "category": "severity",
+   "question": "How severe was the bacterial spot infection?",
+   "reference": "severe",
+   "prediction": "rapidly spreading, severe infection",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0421",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When did the symptoms of late blight first appear in field 2?",
+   "reference": "The symptoms of late blight first appeared about 3 days before each consultation session - on approximately March 30, 2024 (Session 1), April 11, 2024 (Session 2), and April 23, 2024 (Session 3).",
+   "prediction": "3 days ago",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0421",
+   "dataset": "locomo",
+   "category": "severity",
+   "question": "What percentage of potato plants in field 2 were showing late blight symptoms during the initial consultation, and how did this severity level change over subsequent visits?",
+   "reference": "During the first consultation on April 2, approximately 15-20% of plants were affected. By April 14, the lesions had spread to middle leaves, and by April 26, about 30% of plants were showing symptoms with rapid upward spread from lower to upper foliage.",
+   "prediction": "15-20%, unknown change",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0479",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When did the tomato leaf mold symptoms first appear according to the farmer's observations?",
+   "reference": "The farmer first noticed symptoms about 5 days before the first consultation session (around July 19, 2024), and later reported that symptoms started about 10 days before the second session (around July 27, 2024).",
+   "prediction": "About 5 days ago.",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0479",
+   "dataset": "locomo",
+   "category": "severity",
+   "question": "How severe has the tomato leaf mold become in the greenhouse?",
+   "reference": "The tomato leaf mold has become quite severe, affecting 70-80% of plants with extensive yellow patches and olive-green fuzzy growth on the lower leaves, and some leaf drop is occurring.",
+   "prediction": "40% of plants affected.",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0479",
+   "dataset": "locomo",
+   "category": "treatment",
+   "question": "What fungicide treatments were recommended for the tomato leaf mold, and what application instructions were provided?",
+   "reference": "The expert recommended applying a fungicide labeled for leaf mold, specifically looking for products containing chlorothalonil or copper. The treatment should be applied as part of an aggressive approach combining both cultural controls (improving air circulation, reducing humidity below 85%, removing infected leaves) and chemical controls. The fungicide application was to be used alongside other measures like avoiding overhead watering and watering early in the day to allow foliage to dry.",
+   "prediction": "unknown",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0046",
+   "dataset": "locomo",
+   "category": "disease_identification",
+   "question": "What disease was identified in greenhouse_1?",
+   "reference": "bacterial spot",
+   "prediction": "bacterial spot",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0046",
+   "dataset": "locomo",
+   "category": "severity",
+   "question": "What is the current severity level of the bacterial spot disease in Greenhouse 1?",
+   "reference": "The bacterial spot disease is affecting approximately 40% of the pepper plants in Greenhouse 1, with significant leaf drop occurring and the disease spreading rapidly from lower to upper foliage.",
+   "prediction": "Moderate severity (30% affected)",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0046",
+   "dataset": "locomo",
+   "category": "treatment",
+   "question": "What treatment was recommended for the bacterial spot disease affecting the pepper plants?",
+   "reference": "The recommended treatment includes immediately removing and destroying all infected plant material, applying a copper-based bactericide (every 7-10 days), increasing air circulation in the greenhouse, switching to morning watering only (avoiding overhead watering), and considering a streptomycin spray if available.",
+   "prediction": "copper-based bactericide application",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0154",
+   "dataset": "locomo",
+   "category": "disease_identification",
+   "question": "What disease was consistently identified across all consultation sessions for the pepper crop in field 3?",
+   "reference": "Bacterial spot caused by Xanthomonas euvesicatoria",
+   "prediction": "bacterial leaf spot",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0154",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When was the infection first reported?",
+   "reference": "2024-10-11",
+   "prediction": "about a week ago",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0154",
+   "dataset": "locomo",
+   "category": "severity",
+   "question": "What is the severity level of the bacterial spot disease in field 3 based on the defoliation observed?",
+   "reference": "The bacterial spot disease has reached approximately 30% defoliation in field 3, with rapid spread across the pepper plants.",
+   "prediction": "error:watchdog",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0154",
+   "dataset": "locomo",
+   "category": "treatment",
+   "question": "What copper-based treatment was recommended for bacterial spot in pepper plants?",
+   "reference": "Apply a copper-based bactericide immediately and repeat every 7-10 days. For severe cases, consider using a fixed copper formulation at the higher labeled rate or rotating with systemic bactericides like streptomycin or oxytetracycline.",
+   "prediction": "copper hydroxide spray",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0130",
+   "dataset": "locomo",
+   "category": "disease_identification",
+   "question": "What disease was identified in the pepper plants in field_3?",
+   "reference": "Bacterial spot caused by Xanthomonas euvesicatoria",
+   "prediction": "Bacterial leaf spot.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0130",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When did the symptoms of bacterial spot first appear on the pepper plants in field 3?",
+   "reference": "The symptoms first appeared about 4-5 days before the farmer contacted Dr. Evans in both sessions, with the first report on June 2nd and the second report on June 13th.",
+   "prediction": "4-5 days ago",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0469",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When was the copper-based bactericide treatment first recommended to be applied?",
+   "reference": "The copper-based bactericide treatment was first recommended to be applied immediately when the farmer first reported the symptoms on September 20, 2024.",
+   "prediction": "immediately",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0469",
+   "dataset": "locomo",
+   "category": "severity",
+   "question": "What is the current severity level of the bacterial spot infection on the pepper plants?",
+   "reference": "The bacterial spot infection is currently mild, affecting approximately 15-20% of plants in the middle section of field 2.",
+   "prediction": "mild and limited",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0469",
+   "dataset": "locomo",
+   "category": "treatment",
+   "question": "What treatment was recommended for the bacterial spot disease on the pepper plants?",
+   "reference": "The expert recommended applying a copper-based bactericide immediately and repeating every 7-10 days, removing and destroying severely infected leaves, increasing air circulation by pruning inner canopy growth, avoiding overhead watering, and considering drip irrigation instead of overhead if possible.",
+   "prediction": "Copper-based bactericide applications immediately.",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0474",
+   "dataset": "locomo",
+   "category": "severity",
+   "question": "What was the severity level of the early blight identified in the potato plants?",
+   "reference": "The early blight was consistently described as mild across all sessions, with the disease primarily affecting lower leaves and affecting approximately 10-20% of plants.",
+   "prediction": "The severity was mild.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0201",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When was the infection first reported?",
+   "reference": "2024-10-20",
+   "prediction": "8 days ago",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0201",
+   "dataset": "locomo",
+   "category": "severity",
+   "question": "What was the severity level of the bacterial spot disease observed in the pepper field?",
+   "reference": "The severity was moderate, with 30-40% of plants affected and moderate defoliation on the worst affected plants.",
+   "prediction": "moderate defoliation on worst plants",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0465",
+   "dataset": "locomo",
+   "category": "temporal",
+   "question": "When did the symptoms of late blight first appear in field 2?",
+   "reference": "The symptoms of late blight first appeared about 3 days before each consultation session, with the farmer reporting noticing the dark, water-soaked lesions approximately 3 days prior to contacting Dr. Evans in Sessions 1, 3, and 4, and about 4 days prior in Session 2.",
+   "prediction": "Two days ago.",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "agri-0004",
+   "dataset": "locomo",
+   "category": "disease_identification",
+   "question": "What disease was identified in field_3?",
+   "reference": "late blight",
+   "prediction": "late blight",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0198",
+   "dataset": "locomo",
+   "category": "severity",
+   "question": "What is the severity level of the bacterial spot disease in field_3 based on the percentage of plants affected and leaf defoliation?",
+   "reference": "The bacterial spot disease is quite severe, affecting 60-70% of plants in field_3 with significant leaf drop. Approximately 30% of leaves have already dropped from the plants, and the disease is spreading rapidly to both leaves and fruits.",
+   "prediction": "\"Severe (30% defoliation)\"",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "agri-0198",
+   "dataset": "locomo",
+   "category": "treatment",
+   "question": "What treatment was recommended for the bacterial spot disease affecting the pepper crop in field_3?",
+   "reference": "The recommended treatment includes applying a copper-based bactericide immediately, followed by a second application in 7-10 days. Additionally, stop overhead irrigation and switch to drip if possible, remove and destroy severely infected plant material, and consider using a fixed copper product with mancozeb for better control.",
+   "prediction": "unknown",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "counting_836a37d2",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many crops can be affected by both powdery mildew and downy mildew?",
+   "reference": "2",
+   "prediction": "Two crops.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "negation_4703536e",
+   "dataset": "hotpotqa",
+   "category": "negation",
+   "question": "Between early blight and downy mildew, which disease does NOT affect any crops from the Solanaceae family?",
+   "reference": "downy mildew",
+   "prediction": "Downy mildew.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "implicit_cd360349",
+   "dataset": "hotpotqa",
+   "category": "implicit",
+   "question": "Based on the number of fungal diseases that can affect them, which plant family is most susceptible to fungal infections?",
+   "reference": "Solanaceae",
+   "prediction": "Solanaceae family.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "derived_a5ce82f0",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects cucumber and shows stunted growth?",
+   "reference": "fungus",
+   "prediction": "Fungus (Erysiphe species).",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_5c9decf3",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many crops can be affected by both septoria leaf spot and early blight?",
+   "reference": "1",
+   "prediction": "tomato",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "counting_4e96f021",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many crops can be affected by both septoria leaf spot and early blight?",
+   "reference": "1",
+   "prediction": "tomato",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "counting_855b5a39",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many crops can be affected by both powdery mildew and downy mildew?",
+   "reference": "2",
+   "prediction": "Two crops.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "comparative_727dc1cd",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between rice blast and bacterial spot, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "rice blast",
+   "prediction": "Rice blast is more dangerous.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "derived_d60bea66",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects tomato and shows target-like lesions?",
+   "reference": "fungus",
+   "prediction": "The pathogen is Alternaria solani.",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "counting_8f6943e1",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many different crops in total are affected by either septoria leaf spot or rice blast?",
+   "reference": "2",
+   "prediction": "Two crops.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "derived_f6ae22e4",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects wheat and shows white powdery coating?",
+   "reference": "fungus",
+   "prediction": "Fungus (Erysiphe species).",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "comparative_b501ea98",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between downy mildew and rice blast, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "rice blast",
+   "prediction": "Both are high severity.",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "derived_f47a01e5",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects tomato and shows yellow halos?",
+   "reference": "bacterium",
+   "prediction": "Xanthomonas campestris.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "comparative_3d1037b9",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between septoria leaf spot and late blight, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "late blight",
+   "prediction": "Late blight is more dangerous.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "comparative_895caa4e",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between septoria leaf spot and late blight, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "late blight",
+   "prediction": "Late blight is more dangerous.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_8e500989",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many crops can be affected by both late blight and bacterial spot?",
+   "reference": "1",
+   "prediction": "tomato",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "counting_db0afa93",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many different crops in total are affected by either late blight or septoria leaf spot?",
+   "reference": "2",
+   "prediction": "Two crops.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "comparative_e339e48e",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between septoria leaf spot and rice blast, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "rice blast",
+   "prediction": "Rice blast is more dangerous.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_493aaa87",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many different crops in total are affected by either early blight or late blight?",
+   "reference": "2",
+   "prediction": "tomato, potato",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "comparative_74812efe",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between septoria leaf spot and bacterial spot, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "bacterial spot",
+   "prediction": "Bacterial spot is more dangerous.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_4e26481d",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many different crops in total are affected by either septoria leaf spot or fusarium wilt?",
+   "reference": "3",
+   "prediction": "4 crops",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "derived_f8577dec",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects potato and shows target-like lesions?",
+   "reference": "fungus",
+   "prediction": "Fungus Alternaria solani.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_aa79a176",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many crops can be affected by both fusarium wilt and bacterial spot?",
+   "reference": "1",
+   "prediction": "tomato",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "comparative_ccc96b2c",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between fusarium wilt and late blight, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "late blight",
+   "prediction": "Late blight is more dangerous.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_2acab7d2",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many crops can be affected by both bacterial spot and fusarium wilt?",
+   "reference": "1",
+   "prediction": "tomato",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "derived_fc4f27f4",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects tomato and shows gray centers?",
+   "reference": "fungus",
+   "prediction": "Fungus (Septoria lycopersici).",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "implicit_3cfdb11c",
+   "dataset": "hotpotqa",
+   "category": "implicit",
+   "question": "Based on the number of fungal diseases that can affect them, which plant family is most susceptible to fungal infections?",
+   "reference": "Solanaceae",
+   "prediction": "Cucurbitaceae and Poaceae.",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "comparative_4de87306",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between septoria leaf spot and fusarium wilt, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "fusarium wilt",
+   "prediction": "Fusarium wilt is more dangerous.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "derived_ce106ead",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects cucumber and shows white powdery coating?",
+   "reference": "fungus",
+   "prediction": "Fungus (Erysiphe species).",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "derived_1373eef6",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects tomato and shows concentric ring patterns?",
+   "reference": "fungus",
+   "prediction": "The pathogen is Alternaria solani.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_9805424e",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many different crops in total are affected by either septoria leaf spot or late blight?",
+   "reference": "2",
+   "prediction": "Two crops: tomato, potato.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "implicit_77969632",
+   "dataset": "hotpotqa",
+   "category": "implicit",
+   "question": "Based on the number of fungal diseases that can affect them, which plant family is most susceptible to fungal infections?",
+   "reference": "Solanaceae",
+   "prediction": "Solanaceae and Cucurbitaceae",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "derived_5516dfd1",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects cotton and shows wilting?",
+   "reference": "fungus",
+   "prediction": "Fusarium oxysporum fungus.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "derived_72ee75b2",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects cotton and shows vascular browning?",
+   "reference": "fungus",
+   "prediction": "Fusarium oxysporum fungus.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "implicit_5ab07adb",
+   "dataset": "hotpotqa",
+   "category": "implicit",
+   "question": "Based on the number of fungal diseases that can affect them, which plant family is most susceptible to fungal infections?",
+   "reference": "Solanaceae",
+   "prediction": "Solanaceae family.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_d74c7475",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many different crops in total are affected by either downy mildew or septoria leaf spot?",
+   "reference": "4",
+   "prediction": "4 crops.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "derived_a49653e1",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects tomato and shows wilting?",
+   "reference": "fungus",
+   "prediction": "Fusarium oxysporum fungus.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "comparative_caa912a1",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between septoria leaf spot and rice blast, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "rice blast",
+   "prediction": "Rice blast is more dangerous.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "derived_655ce5e2",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects tomato and shows brown spots?",
+   "reference": "fungus",
+   "prediction": "Alternaria solani.",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "derived_2b0fdd3b",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects pepper and shows small water-soaked spots?",
+   "reference": "bacterium",
+   "prediction": "Xanthomonas campestris.",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "negation_bce0d324",
+   "dataset": "hotpotqa",
+   "category": "negation",
+   "question": "Between fusarium wilt and rice blast, which disease does NOT affect any crops from the Solanaceae family?",
+   "reference": "rice blast",
+   "prediction": "Rice blast.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "derived_71532c0e",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects pepper and shows leaf curling?",
+   "reference": "bacterium",
+   "prediction": "Xanthomonas campestris.",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "counting_ed208f34",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many different crops in total are affected by either late blight or bacterial spot?",
+   "reference": "4",
+   "prediction": "Four crops.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_8a360f09",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many crops can be affected by both downy mildew and powdery mildew?",
+   "reference": "2",
+   "prediction": "Two crops.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "implicit_bcb89ba1",
+   "dataset": "hotpotqa",
+   "category": "implicit",
+   "question": "Based on the number of fungal diseases that can affect them, which plant family is most susceptible to fungal infections?",
+   "reference": "Solanaceae",
+   "prediction": "Solanaceae family.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_fabc6052",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many crops can be affected by both bacterial spot and early blight?",
+   "reference": "1",
+   "prediction": "tomato",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "counting_680e6f3b",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many different crops in total are affected by either downy mildew or powdery mildew?",
+   "reference": "5",
+   "prediction": "five crops",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "comparative_441eceae",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between early blight and downy mildew, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "downy mildew",
+   "prediction": "Downy mildew is more dangerous.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_7cbea15c",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many different crops in total are affected by either downy mildew or powdery mildew?",
+   "reference": "5",
+   "prediction": "Five crops.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_73cd7243",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many crops can be affected by both septoria leaf spot and fusarium wilt?",
+   "reference": "1",
+   "prediction": "tomato",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "comparative_aa1f3197",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between septoria leaf spot and early blight, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "early blight",
+   "prediction": "Early blight.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "derived_6e38cdae",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects tomato and shows white fuzzy growth?",
+   "reference": "oomycete",
+   "prediction": "The pathogen is Phytophthora infestans.",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "comparative_e20c250a",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between powdery mildew and downy mildew, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "downy mildew",
+   "prediction": "Downy mildew is more dangerous.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_31e42520",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many crops can be affected by both bacterial spot and early blight?",
+   "reference": "1",
+   "prediction": "tomato",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "comparative_149b750b",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between bacterial spot and septoria leaf spot, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "bacterial spot",
+   "prediction": "Bacterial spot is more dangerous.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "comparative_c544b548",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between powdery mildew and bacterial spot, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "bacterial spot",
+   "prediction": "Bacterial spot is more dangerous.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "comparative_faefca44",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between rice blast and downy mildew, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "rice blast",
+   "prediction": "Rice blast is more dangerous.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "negation_36542ccb",
+   "dataset": "hotpotqa",
+   "category": "negation",
+   "question": "Between septoria leaf spot and downy mildew, which disease does NOT affect any crops from the Solanaceae family?",
+   "reference": "downy mildew",
+   "prediction": "Downy mildew.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "implicit_9c9a7838",
+   "dataset": "hotpotqa",
+   "category": "implicit",
+   "question": "Based on the number of fungal diseases that can affect them, which plant family is most susceptible to fungal infections?",
+   "reference": "Solanaceae",
+   "prediction": "Solanaceae family",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "implicit_bada3ba9",
+   "dataset": "hotpotqa",
+   "category": "implicit",
+   "question": "Based on the number of fungal diseases that can affect them, which plant family is most susceptible to fungal infections?",
+   "reference": "Solanaceae",
+   "prediction": "Solanaceae family.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_778cc77d",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many different crops in total are affected by either fusarium wilt or early blight?",
+   "reference": "4",
+   "prediction": "Five crops.",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "derived_e8e8696e",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects tomato and shows tiny black dots?",
+   "reference": "fungus",
+   "prediction": "fungus",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_2faaad76",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many crops can be affected by both fusarium wilt and bacterial spot?",
+   "reference": "1",
+   "prediction": "tomato",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "negation_d1d7dc24",
+   "dataset": "hotpotqa",
+   "category": "negation",
+   "question": "Between early blight and downy mildew, which disease does NOT affect any crops from the Solanaceae family?",
+   "reference": "downy mildew",
+   "prediction": "Downy mildew.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "comparative_041208c1",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between septoria leaf spot and late blight, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "late blight",
+   "prediction": "Late blight is more dangerous.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "derived_99f787f3",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects rice and shows panicle blast?",
+   "reference": "fungus",
+   "prediction": "The pathogen is Magnaporthe oryzae.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "comparative_f2bd0b5c",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between rice blast and septoria leaf spot, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "rice blast",
+   "prediction": "Rice blast is more dangerous.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_51d7cc17",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many different crops in total are affected by either fusarium wilt or septoria leaf spot?",
+   "reference": "3",
+   "prediction": "Three crops.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "comparative_2f2a5ebb",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between late blight and fusarium wilt, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "late blight",
+   "prediction": "Late blight is more dangerous.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "derived_23d84196",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects rice and shows diamond-shaped lesions?",
+   "reference": "fungus",
+   "prediction": "Fungus Magnaporthe oryzae.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_d4047c84",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many crops can be affected by both fusarium wilt and late blight?",
+   "reference": "1",
+   "prediction": "tomato",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "counting_b4317173",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many crops can be affected by both bacterial spot and fusarium wilt?",
+   "reference": "1",
+   "prediction": "tomato",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "negation_e9134012",
+   "dataset": "hotpotqa",
+   "category": "negation",
+   "question": "Between early blight and downy mildew, which disease does NOT affect any crops from the Solanaceae family?",
+   "reference": "downy mildew",
+   "prediction": "Downy mildew.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_a58e9a48",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many different crops in total are affected by either septoria leaf spot or downy mildew?",
+   "reference": "4",
+   "prediction": "4 crops.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "comparative_5da6f15d",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between bacterial spot and downy mildew, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "downy mildew",
+   "prediction": "Downy mildew is more dangerous.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "comparative_116380b2",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between powdery mildew and late blight, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "late blight",
+   "prediction": "Late blight is more dangerous.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "derived_97377b3e",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects cucumber and shows stunted growth?",
+   "reference": "fungus",
+   "prediction": "Fungus (Erysiphe species).",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_c12b8bf9",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many crops can be affected by both powdery mildew and downy mildew?",
+   "reference": "2",
+   "prediction": "Two crops.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_26a5f572",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many crops can be affected by both downy mildew and powdery mildew?",
+   "reference": "2",
+   "prediction": "Two crops: cucumber, grape.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "negation_34811463",
+   "dataset": "hotpotqa",
+   "category": "negation",
+   "question": "Between late blight and powdery mildew, which disease does NOT affect any crops from the Solanaceae family?",
+   "reference": "powdery mildew",
+   "prediction": "Powdery mildew.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "negation_616cb257",
+   "dataset": "hotpotqa",
+   "category": "negation",
+   "question": "Between bacterial spot and powdery mildew, which disease does NOT affect any crops from the Solanaceae family?",
+   "reference": "powdery mildew",
+   "prediction": "Powdery Mildew.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_4ad9e2b8",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many crops can be affected by both early blight and septoria leaf spot?",
+   "reference": "1",
+   "prediction": "tomato",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "counting_646d8b60",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many crops can be affected by both bacterial spot and early blight?",
+   "reference": "1",
+   "prediction": "tomato",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "derived_35c9fe8c",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects tomato and shows tiny black dots?",
+   "reference": "fungus",
+   "prediction": "The pathogen is **Septoria lycopersici**.  \n\n(5 words: *Septoria lycopersici fungus*)",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "derived_555087a7",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects eggplant and shows small water-soaked spots?",
+   "reference": "bacterium",
+   "prediction": "Xanthomonas campestris.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "implicit_6b50aaf5",
+   "dataset": "hotpotqa",
+   "category": "implicit",
+   "question": "Based on the number of fungal diseases that can affect them, which plant family is most susceptible to fungal infections?",
+   "reference": "Solanaceae",
+   "prediction": "Solanaceae family.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "comparative_625c88db",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between rice blast and septoria leaf spot, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "rice blast",
+   "prediction": "Rice blast is more dangerous.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "derived_a14fbfec",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects rice and shows node infection?",
+   "reference": "fungus",
+   "prediction": "Fungus Magnaporthe oryzae.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "implicit_f5dbaf41",
+   "dataset": "hotpotqa",
+   "category": "implicit",
+   "question": "Based on the number of fungal diseases that can affect them, which plant family is most susceptible to fungal infections?",
+   "reference": "Solanaceae",
+   "prediction": "Solanaceae family.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "implicit_15a0fc76",
+   "dataset": "hotpotqa",
+   "category": "implicit",
+   "question": "Based on the number of fungal diseases that can affect them, which plant family is most susceptible to fungal infections?",
+   "reference": "Solanaceae",
+   "prediction": "Solanaceae family.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_ead8b155",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many crops can be affected by both late blight and early blight?",
+   "reference": "2",
+   "prediction": "two (tomato, potato)",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_2547a964",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many different crops in total are affected by either rice blast or early blight?",
+   "reference": "3",
+   "prediction": "Three crops.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "derived_15e11c7b",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects cotton and shows vascular browning?",
+   "reference": "fungus",
+   "prediction": "Fusarium oxysporum fungus.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "comparative_36a9d76d",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between early blight and late blight, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "late blight",
+   "prediction": "Late blight is more dangerous.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "implicit_50cad7bf",
+   "dataset": "hotpotqa",
+   "category": "implicit",
+   "question": "Based on the number of fungal diseases that can affect them, which plant family is most susceptible to fungal infections?",
+   "reference": "Solanaceae",
+   "prediction": "Solanaceae family.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_5827f2da",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many crops can be affected by both downy mildew and powdery mildew?",
+   "reference": "2",
+   "prediction": "two crops",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "comparative_0eb3da05",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between fusarium wilt and rice blast, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "rice blast",
+   "prediction": "Rice blast",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "comparative_2209be8b",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between bacterial spot and downy mildew, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "downy mildew",
+   "prediction": "Downy mildew is more dangerous.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_39dc7cd2",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many different crops in total are affected by either downy mildew or early blight?",
+   "reference": "5",
+   "prediction": "Five crops.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "comparative_8b4059be",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between bacterial spot and fusarium wilt, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "bacterial spot",
+   "prediction": "Fusarium wilt is more dangerous.",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "negation_b13df471",
+   "dataset": "hotpotqa",
+   "category": "negation",
+   "question": "Between fusarium wilt and downy mildew, which disease does NOT affect any crops from the Solanaceae family?",
+   "reference": "downy mildew",
+   "prediction": "Downy Mildew.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "comparative_00b99c71",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between downy mildew and septoria leaf spot, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "downy mildew",
+   "prediction": "Downy mildew is more dangerous.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "implicit_baf2fcd4",
+   "dataset": "hotpotqa",
+   "category": "implicit",
+   "question": "Based on the number of fungal diseases that can affect them, which plant family is most susceptible to fungal infections?",
+   "reference": "Solanaceae",
+   "prediction": "Solanaceae family.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_1aa0e051",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many crops can be affected by both fusarium wilt and bacterial spot?",
+   "reference": "1",
+   "prediction": "tomato",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "counting_47825610",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many crops can be affected by both bacterial spot and late blight?",
+   "reference": "1",
+   "prediction": "tomato",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "derived_282455b3",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects tomato and shows gray centers?",
+   "reference": "fungus",
+   "prediction": "The pathogen is Septoria lycopersici.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "implicit_22a3327f",
+   "dataset": "hotpotqa",
+   "category": "implicit",
+   "question": "Based on the number of fungal diseases that can affect them, which plant family is most susceptible to fungal infections?",
+   "reference": "Solanaceae",
+   "prediction": "Solanaceae family.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "comparative_2f17ac0a",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between septoria leaf spot and fusarium wilt, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "fusarium wilt",
+   "prediction": "Fusarium wilt is more dangerous.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "negation_0a15683e",
+   "dataset": "hotpotqa",
+   "category": "negation",
+   "question": "Between early blight and rice blast, which disease does NOT affect any crops from the Solanaceae family?",
+   "reference": "rice blast",
+   "prediction": "Rice blast.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_60a1901a",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many crops can be affected by both early blight and septoria leaf spot?",
+   "reference": "1",
+   "prediction": "tomato",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "comparative_d6cc4283",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between powdery mildew and late blight, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "late blight",
+   "prediction": "Late blight is more dangerous.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "comparative_aef62a6f",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between early blight and powdery mildew, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "early blight",
+   "prediction": "Early blight is more dangerous.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "derived_5b0ba0cb",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects spinach and shows white downy growth underneath?",
+   "reference": "oomycete",
+   "prediction": "oomycete",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "derived_388af5c0",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects potato and shows brown spots?",
+   "reference": "fungus",
+   "prediction": "The pathogen is Alternaria solani.",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "counting_df6c7b80",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many crops can be affected by both fusarium wilt and bacterial spot?",
+   "reference": "1",
+   "prediction": "tomato",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "counting_fa6f3b4a",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many crops can be affected by both downy mildew and powdery mildew?",
+   "reference": "2",
+   "prediction": "Two crops.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "comparative_0a2a160c",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between septoria leaf spot and downy mildew, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "downy mildew",
+   "prediction": "Downy mildew is more dangerous.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_4847b00b",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many crops can be affected by both powdery mildew and downy mildew?",
+   "reference": "2",
+   "prediction": "Two crops: grape, cucumber.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "implicit_2b7e5e73",
+   "dataset": "hotpotqa",
+   "category": "implicit",
+   "question": "Based on the number of fungal diseases that can affect them, which plant family is most susceptible to fungal infections?",
+   "reference": "Solanaceae",
+   "prediction": "Solanaceae and Cucurbitaceae (tied)",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_8df86104",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many different crops in total are affected by either early blight or late blight?",
+   "reference": "2",
+   "prediction": "tomato, potato",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "counting_688bdced",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many different crops in total are affected by either bacterial spot or powdery mildew?",
+   "reference": "7",
+   "prediction": "Seven crops.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "negation_f968e34b",
+   "dataset": "hotpotqa",
+   "category": "negation",
+   "question": "Between late blight and powdery mildew, which disease does NOT affect any crops from the Solanaceae family?",
+   "reference": "powdery mildew",
+   "prediction": "Powdery mildew.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_f636bf2a",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many crops can be affected by both powdery mildew and downy mildew?",
+   "reference": "2",
+   "prediction": "two crops",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "derived_c927394a",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects rice and shows diamond-shaped lesions?",
+   "reference": "fungus",
+   "prediction": "The pathogen is Magnaporthe oryzae.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "derived_03e28124",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects cucumber and shows yellow patches?",
+   "reference": "oomycete",
+   "prediction": "oomycete (Plasmopara viticola)",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "comparative_9d442b51",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between septoria leaf spot and bacterial spot, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "bacterial spot",
+   "prediction": "Bacterial spot is more dangerous.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_3c364c11",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many different crops in total are affected by either bacterial spot or rice blast?",
+   "reference": "4",
+   "prediction": "Four crops.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "negation_d9e3ffde",
+   "dataset": "hotpotqa",
+   "category": "negation",
+   "question": "Between bacterial spot and downy mildew, which disease does NOT affect any crops from the Solanaceae family?",
+   "reference": "downy mildew",
+   "prediction": "Downy mildew.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "implicit_e12863a5",
+   "dataset": "hotpotqa",
+   "category": "implicit",
+   "question": "Based on the number of fungal diseases that can affect them, which plant family is most susceptible to fungal infections?",
+   "reference": "Solanaceae",
+   "prediction": "Solanaceae family.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "comparative_1eeb0667",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between fusarium wilt and late blight, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "late blight",
+   "prediction": "Late blight is more dangerous.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_c45a067a",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many different crops in total are affected by either bacterial spot or early blight?",
+   "reference": "4",
+   "prediction": "tomato, pepper, eggplant, potato",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "counting_8fbc5baf",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many crops can be affected by both downy mildew and powdery mildew?",
+   "reference": "2",
+   "prediction": "Two crops: cucumber, grape.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "comparative_cdc675dd",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between septoria leaf spot and powdery mildew, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "septoria leaf spot",
+   "prediction": "Septoria leaf spot.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "comparative_ed7ec1c6",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between late blight and powdery mildew, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "late blight",
+   "prediction": "Late blight is more dangerous.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_e4b35c0e",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many different crops in total are affected by either septoria leaf spot or bacterial spot?",
+   "reference": "3",
+   "prediction": "3 crops (tomato, pepper, eggplant).",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "negation_f6f49682",
+   "dataset": "hotpotqa",
+   "category": "negation",
+   "question": "Between fusarium wilt and downy mildew, which disease does NOT affect any crops from the Solanaceae family?",
+   "reference": "downy mildew",
+   "prediction": "Downy Mildew.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "derived_a393e14c",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects spinach and shows yellow patches?",
+   "reference": "oomycete",
+   "prediction": "oomycete pathogen",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "derived_72338b39",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects rice and shows panicle blast?",
+   "reference": "fungus",
+   "prediction": "Fungus Magnaporthe oryzae.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "comparative_5afc26ab",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between septoria leaf spot and rice blast, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "rice blast",
+   "prediction": "Rice blast is more dangerous.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "comparative_90bfc9bc",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between downy mildew and septoria leaf spot, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "downy mildew",
+   "prediction": "Downy mildew is more dangerous.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "comparative_a59693cf",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between powdery mildew and fusarium wilt, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "fusarium wilt",
+   "prediction": "Fusarium wilt is more dangerous.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "implicit_3ce12045",
+   "dataset": "hotpotqa",
+   "category": "implicit",
+   "question": "Based on the number of fungal diseases that can affect them, which plant family is most susceptible to fungal infections?",
+   "reference": "Solanaceae",
+   "prediction": "Solanaceae family.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "comparative_34b057d5",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between septoria leaf spot and fusarium wilt, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "fusarium wilt",
+   "prediction": "Fusarium wilt is more dangerous.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "comparative_e465697b",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between septoria leaf spot and powdery mildew, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "septoria leaf spot",
+   "prediction": "Septoria leaf spot.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "comparative_fc059ee1",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between late blight and rice blast, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "late blight",
+   "prediction": "Both equally dangerous.",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "counting_5adf6b4f",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many crops can be affected by both early blight and late blight?",
+   "reference": "2",
+   "prediction": "tomato, potato",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_b6ae6a9d",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many crops can be affected by both fusarium wilt and septoria leaf spot?",
+   "reference": "1",
+   "prediction": "tomato",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "counting_1b470471",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many crops can be affected by both fusarium wilt and septoria leaf spot?",
+   "reference": "1",
+   "prediction": "tomato",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "counting_977bb4f1",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many different crops in total are affected by either bacterial spot or early blight?",
+   "reference": "4",
+   "prediction": "tomato, pepper, eggplant, potato",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "derived_0366fbc1",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects tomato and shows white fuzzy growth?",
+   "reference": "oomycete",
+   "prediction": "Phytophthora infestans.",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "derived_3ae271f1",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects wheat and shows white powdery coating?",
+   "reference": "fungus",
+   "prediction": "Fungus (Erysiphe species).",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "derived_7afea6fc",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects tomato and shows circular spots?",
+   "reference": "fungus",
+   "prediction": "Fungus (Septoria lycopersici).",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_6fb49b7b",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many crops can be affected by both septoria leaf spot and early blight?",
+   "reference": "1",
+   "prediction": "tomato",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "comparative_51bc1abe",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between rice blast and bacterial spot, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "rice blast",
+   "prediction": "Rice blast is more dangerous.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "implicit_567987c4",
+   "dataset": "hotpotqa",
+   "category": "implicit",
+   "question": "Based on the number of fungal diseases that can affect them, which plant family is most susceptible to fungal infections?",
+   "reference": "Solanaceae",
+   "prediction": "Solanaceae family.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "derived_19d0fc94",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects cucumber and shows white downy growth underneath?",
+   "reference": "oomycete",
+   "prediction": "The pathogen is **Plasmopara viticola**.",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "derived_5019d91e",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects cucumber and shows yellow patches?",
+   "reference": "oomycete",
+   "prediction": "oomycete (Plasmopara viticola)",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "derived_fd8af0f8",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects cotton and shows wilting?",
+   "reference": "fungus",
+   "prediction": "Fusarium oxysporum fungus.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "comparative_d5223a31",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between powdery mildew and downy mildew, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "downy mildew",
+   "prediction": "Downy mildew is more dangerous.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "derived_8ba62453",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects tomato and shows wilting?",
+   "reference": "fungus",
+   "prediction": "Fusarium oxysporum fungus.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "derived_9415e94f",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects rice and shows node infection?",
+   "reference": "fungus",
+   "prediction": "Fungus Magnaporthe oryzae.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "negation_0b1776e0",
+   "dataset": "hotpotqa",
+   "category": "negation",
+   "question": "Between fusarium wilt and powdery mildew, which disease does NOT affect any crops from the Solanaceae family?",
+   "reference": "powdery mildew",
+   "prediction": "Powdery mildew.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "derived_9be73eb0",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects pepper and shows yellow halos?",
+   "reference": "bacterium",
+   "prediction": "Xanthomonas campestris.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_a4a142b8",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many different crops in total are affected by either powdery mildew or early blight?",
+   "reference": "6",
+   "prediction": "six crops",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "comparative_7b5a3ec1",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between early blight and late blight, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "late blight",
+   "prediction": "Late blight is more dangerous.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_6f2ac08c",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many crops can be affected by both late blight and septoria leaf spot?",
+   "reference": "1",
+   "prediction": "tomato",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "negation_e093fcbf",
+   "dataset": "hotpotqa",
+   "category": "negation",
+   "question": "Between early blight and downy mildew, which disease does NOT affect any crops from the Solanaceae family?",
+   "reference": "downy mildew",
+   "prediction": "Downy mildew.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "comparative_efecff5f",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between bacterial spot and rice blast, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "rice blast",
+   "prediction": "Rice blast is more dangerous.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "negation_761cbe1d",
+   "dataset": "hotpotqa",
+   "category": "negation",
+   "question": "Between bacterial spot and rice blast, which disease does NOT affect any crops from the Solanaceae family?",
+   "reference": "rice blast",
+   "prediction": "Rice blast.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "comparative_d35894a6",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between powdery mildew and downy mildew, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "downy mildew",
+   "prediction": "Downy mildew is more dangerous.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_07c900d2",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many different crops in total are affected by either septoria leaf spot or late blight?",
+   "reference": "2",
+   "prediction": "Two crops.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "implicit_a34e8edf",
+   "dataset": "hotpotqa",
+   "category": "implicit",
+   "question": "Based on the number of fungal diseases that can affect them, which plant family is most susceptible to fungal infections?",
+   "reference": "Solanaceae",
+   "prediction": "Solanaceae family.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "negation_7c838e67",
+   "dataset": "hotpotqa",
+   "category": "negation",
+   "question": "Between fusarium wilt and powdery mildew, which disease does NOT affect any crops from the Solanaceae family?",
+   "reference": "powdery mildew",
+   "prediction": "Powdery mildew.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "derived_56854028",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects rice and shows node infection?",
+   "reference": "fungus",
+   "prediction": "Fungus Magnaporthe oryzae.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_7c3c2527",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many crops can be affected by both downy mildew and powdery mildew?",
+   "reference": "2",
+   "prediction": "Two crops: grape, cucumber.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_846f4606",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many different crops in total are affected by either septoria leaf spot or early blight?",
+   "reference": "2",
+   "prediction": "tomato, potato",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "comparative_7a1c3cfc",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between rice blast and powdery mildew, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "rice blast",
+   "prediction": "Rice blast is more dangerous.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "comparative_158fa205",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between powdery mildew and rice blast, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "rice blast",
+   "prediction": "Rice blast.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_682a670f",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many different crops in total are affected by either bacterial spot or early blight?",
+   "reference": "4",
+   "prediction": "Five crops.",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "derived_98ac18bb",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects banana and shows wilting?",
+   "reference": "fungus",
+   "prediction": "Fusarium oxysporum fungus.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "derived_8a025b50",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects rice and shows panicle blast?",
+   "reference": "fungus",
+   "prediction": "The pathogen is Magnaporthe oryzae.",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "counting_35ea41d2",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many crops can be affected by both early blight and septoria leaf spot?",
+   "reference": "1",
+   "prediction": "tomato",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "comparative_665a2d38",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between bacterial spot and rice blast, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "rice blast",
+   "prediction": "Rice blast.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "comparative_5e374b15",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between late blight and downy mildew, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "late blight",
+   "prediction": "Late blight is more dangerous.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_0010ee95",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many different crops in total are affected by either powdery mildew or rice blast?",
+   "reference": "5",
+   "prediction": "5 crops",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_3d47b6ba",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many crops can be affected by both septoria leaf spot and fusarium wilt?",
+   "reference": "1",
+   "prediction": "tomato",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "comparative_a4df9c21",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between septoria leaf spot and powdery mildew, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "septoria leaf spot",
+   "prediction": "Septoria Leaf Spot is more dangerous.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "derived_d99a588e",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects tomato and shows water-soaked lesions?",
+   "reference": "oomycete",
+   "prediction": "oomycete Phytophthora infestans",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "implicit_9c7afe64",
+   "dataset": "hotpotqa",
+   "category": "implicit",
+   "question": "Based on the number of fungal diseases that can affect them, which plant family is most susceptible to fungal infections?",
+   "reference": "Solanaceae",
+   "prediction": "Solanaceae family.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_d0a40f62",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many different crops in total are affected by either rice blast or powdery mildew?",
+   "reference": "5",
+   "prediction": "5 crops.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "comparative_c5a654b4",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between bacterial spot and septoria leaf spot, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "bacterial spot",
+   "prediction": "Bacterial spot is more dangerous.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "negation_1f27b1b5",
+   "dataset": "hotpotqa",
+   "category": "negation",
+   "question": "Between septoria leaf spot and powdery mildew, which disease does NOT affect any crops from the Solanaceae family?",
+   "reference": "powdery mildew",
+   "prediction": "Powdery mildew.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "negation_827de928",
+   "dataset": "hotpotqa",
+   "category": "negation",
+   "question": "Between fusarium wilt and powdery mildew, which disease does NOT affect any crops from the Solanaceae family?",
+   "reference": "powdery mildew",
+   "prediction": "Powdery mildew.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "derived_fae98077",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects rice and shows diamond-shaped lesions?",
+   "reference": "fungus",
+   "prediction": "Fungus Magnaporthe oryzae.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "negation_4052eced",
+   "dataset": "hotpotqa",
+   "category": "negation",
+   "question": "Between bacterial spot and powdery mildew, which disease does NOT affect any crops from the Solanaceae family?",
+   "reference": "powdery mildew",
+   "prediction": "Powdery mildew.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "comparative_3878f064",
+   "dataset": "hotpotqa",
+   "category": "comparative",
+   "question": "Between downy mildew and late blight, which disease is more dangerous overall (considering both spread rate and severity)?",
+   "reference": "late blight",
+   "prediction": "Late blight is more dangerous.",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "counting_251603b3",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many crops can be affected by both early blight and fusarium wilt?",
+   "reference": "1",
+   "prediction": "tomato",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "counting_842bcb10",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many different crops in total are affected by either septoria leaf spot or fusarium wilt?",
+   "reference": "3",
+   "prediction": "tomato, banana, cotton",
+   "judge_correct": true
+  },
+  {
+   "sample_id": "derived_687000f0",
+   "dataset": "hotpotqa",
+   "category": "derived",
+   "question": "What type of pathogen causes the disease that affects tomato and shows water-soaked lesions?",
+   "reference": "oomycete",
+   "prediction": "The pathogen is Phytophthora infestans.",
+   "judge_correct": false
+  },
+  {
+   "sample_id": "counting_bb873a16",
+   "dataset": "hotpotqa",
+   "category": "counting",
+   "question": "How many different crops in total are affected by either downy mildew or late blight?",
+   "reference": "5",
+   "prediction": "Five crops.",
+   "judge_correct": true
+  }
+ ]
+}
